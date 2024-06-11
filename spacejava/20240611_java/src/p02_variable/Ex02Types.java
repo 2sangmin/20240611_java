@@ -40,4 +40,4 @@ public class Ex02Types {
         System.out.println(ex02Types.d1);
   }
 }
-// 참조형의 디폴트값은 null boolean 은 false char은 이상한 문자 나머지는 다 0
+// 참조형의 디폴트값은 null boolean 은 false char은 이상한 문자 나머지는 다 0//
