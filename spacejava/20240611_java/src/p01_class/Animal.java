@@ -27,5 +27,9 @@ public class Animal {
     System.out.println(legs);
   }
 }
+  class Foo {
+    public static void main(String[] args) {
 
+    }
+  }
 
