@@ -5,14 +5,14 @@ import p01_class.Animal;
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class Ex02Types {
-  boolean power;
-  char c1;
-  byte b1;
-  short s1;
-  int i1;
-  long l1;
-  float f1;
-  double d1;
+    boolean power = true;
+    char c1;
+    byte b1;
+    short s1;
+    int i1;
+    long l1;
+    float f1;
+    double d1;
 
   public static void main(String[] args) {
     //변수의 종류 : Primitive, Reference
