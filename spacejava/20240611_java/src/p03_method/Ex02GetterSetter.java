@@ -15,7 +15,7 @@ public class Ex02GetterSetter {
 }
 
 class Person {
-  // 속성에 private을 붙이면 외부에서 접근 불가
+  // 속성에 private을 붙이면 외부에서 접근 불가/
   private String name;
   private String id;
   private String pass;
