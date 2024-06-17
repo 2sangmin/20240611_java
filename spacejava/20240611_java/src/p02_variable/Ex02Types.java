@@ -31,6 +31,7 @@ public class Ex02Types {
     long l1 = 10L;// 정수형, 8byte
     float f1 = 0.1F; //실수형, 4byte 소수점 7째자리 10^-45~10^38
     double d1 = 0.1D;//실수형, 8byte 소수점 13째자리 10^-324~10^308
+    // 참조형 변수의 기본값은 null 이다
 
     String str = "Hello"; System.out.println(str);
     Animal animal = new Animal(); System.out.println(animal);

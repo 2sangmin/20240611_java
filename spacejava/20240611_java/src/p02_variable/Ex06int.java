@@ -26,5 +26,11 @@ public class Ex06int {
     long l2 = 200; // long = int, long l2=(long)200;묵시적형변환
 
     int i2 = (int) l2; //큰범위가 작은 범위로 올때는 명시적 선언!
+    System.out.println("========");
+    long result = i2 + l1;
+    Utils.typeOf(result); //long 자료형과 연산을 할 경우 long 타입으로 형변환
+
+    int i3 = b1; //  int = byte :: 묵시적 형변환(int 표현범위큼)
+    byte b5 = (byte) i3; // byte = int :: 명시적 형변환
   }
 }
