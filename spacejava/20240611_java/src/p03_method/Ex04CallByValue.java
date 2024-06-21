@@ -8,7 +8,7 @@ public class Ex04CallByValue {
     System.out.println(str);
     Data d = new Data();
     System.out.println("main:   "+d);
-    System.out.println(d.value);
+    d.value = 100;
     System.out.println(d.value);
     change(d.value);
     change(500);//19번 라인 호출
@@ -26,5 +26,5 @@ public class Ex04CallByValue {
 }
 
 class Data {
-  int value = 1;
+  int value;
 }
