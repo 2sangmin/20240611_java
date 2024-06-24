@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Ex04CastingReason {
   public static void main(String[] args) {
+    // 참조형 타입의 형변환은 상속관계일때, interface일 경우 적용
+    // 객체지향언어의 특징 중 하나인 다형성 (Polymorphism)
     Buyer b = new Buyer();
     Television t = new Television();
     Audio a = new Audio();
