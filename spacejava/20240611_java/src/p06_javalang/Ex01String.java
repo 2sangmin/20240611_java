@@ -2,6 +2,9 @@ package p06_javalang;
 
 //- 문자열을 비교할때는 == 가 아닌 equals 를 사용할것
 
+import java.util.Arrays;
+import java.util.StringJoiner;
+
 public class Ex01String {
   public static void main(String[] args) {
     String str1 = "hello";
@@ -35,7 +38,28 @@ public class Ex01String {
     System.out.println(str1.endsWith("lo"));
     System.out.println(str1.indexOf("ll"));
     System.out.println(str1.indexOf('l',3));
-    System.out.println(str1.lastIndexOf("el"));
+    System.out.println("last :"+str1.lastIndexOf("el"));
     System.out.println(str1.replace("l","p"));
+    System.out.println("");
+    String[] arr = "Passion is genesis of genius".split("");
+    System.out.println(Arrays.toString(arr));
+    String fileName = "C:Users\\it\\Downloads\\abc.index.html";
+    System.out.println(fileName.substring(fileName.lastIndexOf(".")+1));
+    System.out.println(fileName.substring(fileName.lastIndexOf("\\")+1));
+    System.out.println("hello world".toUpperCase());
+    System.out.println("hello world".toLowerCase());
+    System.out.println("  hello  world  ".trim());
+    System.out.println(String.valueOf(0b100));
+    System.out.println(String.valueOf(0010));
+    System.out.println(String.valueOf(0xa0));
+    StringJoiner sj = new StringJoiner("","(",")");
+    for (String s : arr) {
+      sj.add(s);
+    }
+    System.out.println(sj.toString());
   }
+
+
+
+
 }
