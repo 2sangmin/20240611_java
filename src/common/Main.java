@@ -1,3 +1,5 @@
+package common;
+
 import p01_class.Animal;
 
 public class Main {
